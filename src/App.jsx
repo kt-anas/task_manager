@@ -1,16 +1,20 @@
  
-import './App.css'
+ import react from 'react'
+import Center from './components/Center'
+import Header from './components/Header'
+
 
 function App() {
   
 
   return (
-    <>
-    <h1 className="text-red-800 font-bold underline">
-    Hello world!
-     </h1>
+    <div>
+        
+    <Header/>   
+
+    <Center/>
       
-    </>
+    </div>
   )
 }
 
