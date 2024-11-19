@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --output public",
+       
     "lint": "eslint .",
     "preview": "vite preview"
+
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
